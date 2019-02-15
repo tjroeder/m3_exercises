@@ -1,4 +1,4 @@
-# Mythical Features
+# API Consumption
 
 The tests in this repo require you to make API calls to a number of different services, each linked below. Your goal is to make the tests pass.
 
