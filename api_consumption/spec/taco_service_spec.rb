@@ -34,12 +34,6 @@ describe TacoService do
     expect(r).to have_key("slug")
   end
 
-  it 'can find a list of contributors' do
-    c = @t.contributors
-
-    expect(c).to be_a(Array)
-  end
-
   it 'can find contributions for a specific user' do
     c = @t.contributions("littlewhirl")
 
@@ -70,4 +64,3 @@ describe TacoService do
     expect(c[0]).to have_key("full_name")
   end
 end
-
