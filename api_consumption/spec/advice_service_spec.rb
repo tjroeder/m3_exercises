@@ -17,15 +17,6 @@ describe AdviceService do
   end
 
   it 'can find a piece of advice by id' do
-    advice = @a.find(2)
-
-    expected = "Smile and the world smiles with you. Frown and you're on your own."
-    actual   = advice["slip"]["advice"]
-
-    expect(actual).to eq(expected)
-  end
-
-  it 'can find a piece of advice by id' do
     advice = @a.search("happiness")
 
     expect(advice).to have_key("total_results")
