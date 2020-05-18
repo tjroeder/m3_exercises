@@ -19,7 +19,7 @@ describe ChuckService do
   it 'can find a random joke in a category' do
     joke = @c.random_in_category('music')
 
-    expect(joke).to have_key("category")
+    expect(joke).to have_key("categories")
     expect(joke).to have_key("icon_url")
     expect(joke).to have_key("id")
     expect(joke).to have_key("value")
