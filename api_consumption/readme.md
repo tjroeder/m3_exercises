@@ -16,7 +16,7 @@ The documentation below has been broken into three groups, depending on the leve
 
 ## Medium
 
-* DiscogsService uses [the Discogs API](https://www.discogs.com/developers/)
+* MusixMatchService uses[musixmatch API](https://developer.musixmatch.com/)
 
 ## Spicy
 
