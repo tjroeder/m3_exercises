@@ -16,7 +16,7 @@ The documentation below has been broken into three groups, depending on the leve
 
 ## Medium
 
-* MusixMatchService uses[musixmatch API](https://developer.musixmatch.com/)
+* MusixMatchService uses [musixmatch API](https://developer.musixmatch.com/)
 
 ## Spicy
 
