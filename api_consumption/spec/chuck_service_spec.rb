@@ -40,7 +40,7 @@ describe ChuckService do
 
     expect(search_results).to have_key("total")
     expect(search_results).to have_key("result")
-    expect(search_results["result"][0]).to have_key("category")
+    expect(search_results["result"][0]).to have_key("categories")
     expect(search_results["result"][0]).to have_key("icon_url")
     expect(search_results["result"][0]).to have_key("id")
     expect(search_results["result"][0]).to have_key("value")
