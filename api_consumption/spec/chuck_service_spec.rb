@@ -11,7 +11,6 @@ describe ChuckService do
   it 'can find a random Chuck Norris joke' do
     joke = @c.random
 
-    expect(joke).to have_key("category")
     expect(joke).to have_key("icon_url")
     expect(joke).to have_key("id")
     expect(joke).to have_key("value")
