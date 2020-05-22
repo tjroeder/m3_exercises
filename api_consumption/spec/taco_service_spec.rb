@@ -9,7 +9,7 @@ describe TacoService do
     expect(@t).to be_a(TacoService)
   end
 
-  it 'can create a taco with random ingreients' do
+  it 'can create a taco with random ingredients' do
     r = @t.random_ingredients
 
     expect(r).to have_key("mixin")
@@ -55,7 +55,7 @@ describe TacoService do
     expect(c[0]).to have_key("slug")
   end
 
-  it 'can find contributors to a specific ingrdient' do
+  it 'can find contributors to a specific ingredient' do
     c = @t.contributors_by_ingredient("base_layers", "boiled_ground_beef")
 
     expect(c).to be_a(Array)
