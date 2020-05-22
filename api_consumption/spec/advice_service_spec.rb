@@ -16,7 +16,7 @@ describe AdviceService do
     expect(random["slip"]).to have_key("advice")
   end
 
-  it 'can find a piece of advice by id' do
+  it 'can find a piece of advice by search term' do
     advice = @a.search("happiness")
 
     expect(advice).to have_key("total_results")
