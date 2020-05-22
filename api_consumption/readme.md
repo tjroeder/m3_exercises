@@ -22,7 +22,6 @@ The documentation below has been broken into three groups, depending on the leve
 
 * MarvelService uses [the Marvel Comics API](https://developer.marvel.com/)
 
-###### Helpful Hints:
-1. Don't forget to require the file you've created within your test file.
+###### Helpful Hint:
 
-2. To use `JSON.parse` you will need to `require 'json'` at the top of the file.
+1. To use `JSON.parse` you will need to `require 'json'` at the top of the file.
