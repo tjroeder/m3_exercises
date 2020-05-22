@@ -1,8 +1,3 @@
-# Typos
-
-* Last test name in Advice is off.
-* Ingredient misspelled in last test in taco service.
-
 # Other Notes
 
 * Finding an ingredient by type seems tricky! Doesn't seem to be documented?
