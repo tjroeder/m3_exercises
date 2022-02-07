@@ -1,6 +1,10 @@
 source 'https://rubygems.org' do
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+  ruby '2.7.2'
   gem 'faraday'
   gem 'dotenv'
   gem 'pry'
   gem 'rspec'
+  gem 'vcr'
+  gem 'json'
 end
