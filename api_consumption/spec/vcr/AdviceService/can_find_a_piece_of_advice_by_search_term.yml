@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.adviceslip.com/advice/search/happiness
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Mon, 07 Feb 2022 02:41:02 GMT
+      server:
+      - Apache
+      expires:
+      - Mon, 07 Feb 2022 03:41:02 GMT
+      cache-control:
+      - max-age=3600, max-age=600, private, must-revalidate
+      x-frame-options:
+      - SAMEORIGIN
+      x-xss-protection:
+      - 1; mode=block
+      x-content-type-options:
+      - nosniff
+      referrer-policy:
+      - no-referrer-when-downgrade
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains; preload
+      upgrade:
+      - h2
+      connection:
+      - Upgrade, close
+      vary:
+      - Accept-Encoding
+      content-security-policy:
+      - 'default-src ''self'';   script-src ''self'' data: ''unsafe-inline'' adviceslip.com
+        ssl.google-analytics.com www.google-analytics.com www.googletagmanager.com
+        storage.ko-fi.com;   connect-src ''self'';   style-src ''self'' ''unsafe-inline''
+        fonts.googleapis.com;   frame-src;   img-src * ;   object-src ''none'';   font-src
+        * ''self'' data:;'
+      access-control-allow-origin:
+      - "*"
+      access-control-allow-headers:
+      - origin, x-requested-with, content-type
+      access-control-allow-methods:
+      - GET, OPTIONS
+      content-length:
+      - '239'
+      content-type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: '{"total_results": "4", "query": "happiness", "slips": [{"id":8,"advice":"Happiness
+        is a journey, not a destination.","date":"2017-02-09"},{"id":9,"advice":"True
+        happiness always resides in the quest.","date":"2015-10-24"},{"id":217,"advice":"Identify
+        sources of happiness.","date":"2016-04-15"},{"id":218,"advice":"Gratitude
+        is said to be the secret to happiness.","date":"2021-08-16"}]}'
+  recorded_at: Mon, 07 Feb 2022 02:41:02 GMT
+recorded_with: VCR 6.0.0
