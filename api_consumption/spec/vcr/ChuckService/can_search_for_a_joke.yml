@@ -1,0 +1,103 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/search?query=snakes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Mon, 07 Feb 2022 03:04:16 GMT
+      content-type:
+      - application/json;charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      via:
+      - 1.1 vegur
+      cf-cache-status:
+      - DYNAMIC
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      report-to:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=f8ZS5n331lggv8fkuuArfLztWODILkpzlKEChcTOWEAflSVksd2ZPyB87dkqieh5PStHQnUkTVA5sDmXkb6Sj63t668hk%2BaJVa3YfRsMtM6lXnJRE6bjnGMuxaxkZTTDIgc3e3o%3D"}],"group":"cf-nel","max_age":604800}'
+      nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      server:
+      - cloudflare
+      cf-ray:
+      - 6d9963cafc230b9d-DFW
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"total":15,"result":[{"categories":["food"],"created_at":"2020-01-05
+        13:42:19.104863","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"rmippwentlkoza8wlv_vjg","updated_at":"2020-01-05
+        13:42:19.104863","url":"https://api.chucknorris.io/jokes/rmippwentlkoza8wlv_vjg","value":"Some
+        people like to eat frogs'' legs. Chuck Norris likes to eat lizard legs. Hence,
+        snakes."},{"categories":[],"created_at":"2020-01-05 13:42:19.897976","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"RdhIXDiOSzCn5_rc6mF6yQ","updated_at":"2020-01-05
+        13:42:19.897976","url":"https://api.chucknorris.io/jokes/RdhIXDiOSzCn5_rc6mF6yQ","value":"Chuck
+        Norris falls in a pit with hundreds of Rattlesnakes. The next day he emerges
+        with Rattleskin boots,belt,hat,jacket and noticeable weight gain."},{"categories":[],"created_at":"2020-01-05
+        13:42:20.568859","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"-Yfa17sHSWO5FiA1uSs6wA","updated_at":"2020-01-05
+        13:42:20.568859","url":"https://api.chucknorris.io/jokes/-Yfa17sHSWO5FiA1uSs6wA","value":"If
+        you dare to look at Chuck Norris'' snakeskin boots, you will get a case of
+        bleeding hemorrhoids before kicks them up your ass."},{"categories":[],"created_at":"2020-01-05
+        13:42:20.841843","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"1Q_o4vHHQPqJibBO2OnhlQ","updated_at":"2020-01-05
+        13:42:20.841843","url":"https://api.chucknorris.io/jokes/1Q_o4vHHQPqJibBO2OnhlQ","value":"Sadly,
+        Chuck Norris'' famous last words were: \"Watch this\". \"Watch\" meaning,
+        \"please kindly pay attention and observe\". \"This\" meaning, \"my snakeskin
+        boot striking your skull thereby splattering your brains upon the ceiling,
+        wall, hallway and finely fashioned Berber carpet\"."},{"categories":[],"created_at":"2020-01-05
+        13:42:21.455187","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"ZcUKo96zTjWlRxV6rlDmhg","updated_at":"2020-01-05
+        13:42:21.455187","url":"https://api.chucknorris.io/jokes/ZcUKo96zTjWlRxV6rlDmhg","value":"Chuck
+        Norris once fell into a pit full of rattle snakes. He emerged 10 minutes later
+        while smartly clad in his new vest, belt and boots."},{"categories":[],"created_at":"2020-01-05
+        13:42:22.089095","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"a7nvYk5CRjq_J2nDJY8GKA","updated_at":"2020-01-05
+        13:42:22.089095","url":"https://api.chucknorris.io/jokes/a7nvYk5CRjq_J2nDJY8GKA","value":"Medusa''s
+        hair is made of snakes. Chuck Norris''s beard is made of hair-colored barbed
+        wire. Medusa can turn you into stone by staring at you. Chuck Norris doesn''t
+        have to look at you to turn you into pulp."},{"categories":[],"created_at":"2020-01-05
+        13:42:22.089095","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"7TwVjwMZSXyCkMvV0IVmXg","updated_at":"2020-01-05
+        13:42:22.089095","url":"https://api.chucknorris.io/jokes/7TwVjwMZSXyCkMvV0IVmXg","value":"Some
+        people like to eat frog legs. Chuck Norris likes to eat lizards; hence snakes."},{"categories":[],"created_at":"2020-01-05
+        13:42:22.980058","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"ptg5ScMoQlW4kJaLDwd7vg","updated_at":"2020-01-05
+        13:42:22.980058","url":"https://api.chucknorris.io/jokes/ptg5ScMoQlW4kJaLDwd7vg","value":"Rattlesnakes
+        FEAR a Chuck Norris bite."},{"categories":[],"created_at":"2020-01-05 13:42:23.240175","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"pe-ynqCaRFWMfRvgNCjLeg","updated_at":"2020-01-05
+        13:42:23.240175","url":"https://api.chucknorris.io/jokes/pe-ynqCaRFWMfRvgNCjLeg","value":"Some
+        people like to eat frog legs. Chuck Norris likes to eat lizard legs. Hence,
+        snakes."},{"categories":[],"created_at":"2020-01-05 13:42:23.484083","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"Tu_TB_5TQjyU0EdAE2P0Nw","updated_at":"2020-01-05
+        13:42:23.484083","url":"https://api.chucknorris.io/jokes/Tu_TB_5TQjyU0EdAE2P0Nw","value":"Chuck
+        Norris is personally responsible for global warming, but it seems no one can
+        convince him to go on a diet who actually lived to tell us if he would consider
+        lightening his daily intake of barbecued rattlesnakes and beans."},{"categories":[],"created_at":"2020-01-05
+        13:42:25.352697","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"9_AEDHt1SNez1HYbkc3kvg","updated_at":"2020-01-05
+        13:42:25.352697","url":"https://api.chucknorris.io/jokes/9_AEDHt1SNez1HYbkc3kvg","value":"Chuck
+        Norris attended last year''s Nobel Prize ceremony wearing an all-white snakeskin
+        pimp suit with matching widebrim hat and feather."},{"categories":[],"created_at":"2020-01-05
+        13:42:27.496799","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"pZJIGGU4QAGxunu9gMAP2w","updated_at":"2020-01-05
+        13:42:27.496799","url":"https://api.chucknorris.io/jokes/pZJIGGU4QAGxunu9gMAP2w","value":"Hercules
+        strangled two snakes in his crib when he was a baby. Chuck Norris strangled
+        two elephants just mere seconds after birth using his own umbilical cord."},{"categories":[],"created_at":"2020-01-05
+        13:42:28.143137","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"jTWgZ6kHR-2lbwIduVvDkg","updated_at":"2020-01-05
+        13:42:28.143137","url":"https://api.chucknorris.io/jokes/jTWgZ6kHR-2lbwIduVvDkg","value":"Chuck
+        Norris loves to plant tubes of springing snakes in bodies to be autopsied."},{"categories":[],"created_at":"2020-01-05
+        13:42:28.143137","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"paGy4nE4TF6YFbU4Q30HWg","updated_at":"2020-01-05
+        13:42:28.143137","url":"https://api.chucknorris.io/jokes/paGy4nE4TF6YFbU4Q30HWg","value":"Rattlesnakes
+        have died from Chuck Norris bites."},{"categories":[],"created_at":"2020-01-05
+        13:42:29.569033","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"QGabBMfNQBuDYwjGf_W1wQ","updated_at":"2020-01-05
+        13:42:29.569033","url":"https://api.chucknorris.io/jokes/QGabBMfNQBuDYwjGf_W1wQ","value":"Chuck
+        Norris uses his tongue can sniff out snakes. His tongue can also strangle
+        a snake. He uses his beard to fillet the snake into bite size pieces and mixes
+        it in with bananas to top off his bowl of Post Toasties."}]}'
+  recorded_at: Mon, 07 Feb 2022 03:04:16 GMT
+recorded_with: VCR 6.0.0

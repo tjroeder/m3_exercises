@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/categories
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Mon, 07 Feb 2022 03:02:03 GMT
+      content-type:
+      - application/json;charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      via:
+      - 1.1 vegur
+      cf-cache-status:
+      - DYNAMIC
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      report-to:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8otgOEqUKtB8qU9U8%2BjTOLo7SVHMSxGQvrxCpQUPKGo3tpCB5gX%2B9OmwpXziFImypO1EXJELK8ReEO9erYoAKPiHSVr%2BiSv1wCTbhFby9rNU%2FKS%2F6HpCOwnqcWnLGg1nIF4Ea8U%3D"}],"group":"cf-nel","max_age":604800}'
+      nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      server:
+      - cloudflare
+      cf-ray:
+      - 6d99608b0b4593d3-DFW
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '["animal","career","celebrity","dev","explicit","fashion","food","history","money","movie","music","political","religion","science","sport","travel"]'
+  recorded_at: Mon, 07 Feb 2022 03:02:03 GMT
+recorded_with: VCR 6.0.0

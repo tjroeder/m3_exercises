@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Mon, 07 Feb 2022 02:49:37 GMT
+      content-type:
+      - application/json;charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      via:
+      - 1.1 vegur
+      cf-cache-status:
+      - DYNAMIC
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      report-to:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MxaiF7HdzqK7CZ7RtCXwNYiEmJNVmxt4WWsUl8eBtyFEubmaXtOpGmpMnjYLJcB%2FVrqhJ0La34TrWDTXVYKTMOdA8DtWoB7lr8dBK2DxHQ2KWwZIOvPrUZyvX6nruICLOzQrls4%3D"}],"group":"cf-nel","max_age":604800}'
+      nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      server:
+      - cloudflare
+      cf-ray:
+      - 6d994e54ea0d678c-DFW
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"categories":[],"created_at":"2020-01-05 13:42:30.730109","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"4UXPnQ3aQZelqeZbVuviNA","updated_at":"2020-01-05
+        13:42:30.730109","url":"https://api.chucknorris.io/jokes/4UXPnQ3aQZelqeZbVuviNA","value":"Chuck
+        Norris raced Sonic The Hedgehog and lost... by about 3 Planck time. Ok, so
+        they didn''t race, but it''s an estimate... Sonic''s top speed: 45 miles per
+        Planck time. Chuck Norris''s top speed: 89.728 miles per 2 Planck times. By
+        the way, in case you''re wondering, one Planck time is 5.4 times 10-to-the-power-of-negative-44
+        seconds. That''s how long it takes for light to travel one Planck LENGTH (16.162
+        times 10-to-the-power-of-negative-36-meters). Therefore, Chuck Norris is faster
+        than light, and only a bit slower than Sonic."}'
+  recorded_at: Mon, 07 Feb 2022 02:49:37 GMT
+recorded_with: VCR 6.0.0
