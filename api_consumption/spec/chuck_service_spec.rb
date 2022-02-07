@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe ChuckService do
+describe ChuckService, :vcr do
   before(:each) do
     @c = ChuckService.new
   end
